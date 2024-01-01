@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Noto+Sans+Linear+B&family=Rubik+Scribble&family=Single+Day&display=swap"
+  rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="index.css" />
+  <title>My weather application</title>
+</head>
+
+<body>
+  <main>
+  <div class="weather-app">
+    <header>
+      <form id="search-form">
+        <input type="search" placeholder="Enter a city.." required class="search-input" id="search-input" />
+        <input type="submit" value="Search" class="search-button" />
+      </form>
+      <h1 class="current-city" id="current-city">Paris</h1>
+      <br>
+      <section class="whole-box">
+      <section class="weather">
+      <span id="current-date" class="date"></span>
+      </span>
+      <br>
+      <span class="current-temperature-value" id="current-temperature">24</span><span
+        class="current-temperature-unit">°C</span>
+        <br>
+      <span id="icon">
+        <img id="weatherImage" src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png"
+          class="weather-app-icon">
+      </span>
+      <div class="weather-forecast" id="forecast">
+     </div>
+
+
+      </section>
+    </header>
+       <section class="details">
+      <div class="current-weather">
+        <div>
+          
+          <p class="current-details">
+            <span id="current-date"></span>
+            <Span id="currentweather">moderate rain</Span> <br />
+            Humidity: <strong id="humidity">87%</strong>,
+            <br> Wind: <strong id="wind">7.2km/h</strong>
+          </section>
+        </section>
+          </p>
+        </div>
+
+        <div class="current-temperature">
+          <span id="icon">
+            
+         
+        </div>
+      </div>
+    
+    <footer>
+      <p>
+        This project was coded by
+        <a href="#" target="_blank">Noluthando Molui</a> and is
+        <a href="#" target="_blank"> on GitHub</a> and
+        <a href="#" target="_blank">hosted on Netlify</a>
+      </p>
+    </footer>
+  </div>
+</body>
+<script src="index.js"></script>
+</main>
+</html>

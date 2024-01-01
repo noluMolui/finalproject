@@ -1,0 +1,53 @@
+main{
+  text-align: center;
+  border: 1px solid rgb(148, 182, 192);
+  padding: 20px;
+  margin: 50px;
+}
+ 
+
+
+.search-input{
+  font-size: 20px;
+  border: rgb(35, 142, 168) solid 1px;
+}
+.search-button{
+  border: 1px;
+  background-color: azure;
+}
+h1{
+  font-family: Agbalumo ;
+  font-size: 25px ;
+  color: rgb(148, 182, 192);
+}
+.date{
+  margin: 0;
+  padding: 0;
+  color: rgb(126, 143, 148);
+}
+.details{
+  display:contents;
+}
+.weather{
+  display:contents;
+}
+      
+.current-temperature-value, .current-temperature-unit, footer{
+  font-family: Agbalumo ;
+  font-size: 25px ;
+  color: rgb(148, 182, 192)
+}
+footer{
+  font-size: 15px;
+}
+.weather-forecast{
+  align-items: center;
+  width: 100pxpx;
+  display:flex;
+  border: solid 1px rgb(148, 182, 192) ;
+
+  
+}
+
+
+
