@@ -73,7 +73,7 @@ function getforecast(city){
 
 
   let forecast = document.querySelector("#forecast");
-  
+  forecast.innerHTML=""
   response.data.daily.forEach(writeforecast);
 }
 function formatday(time){
