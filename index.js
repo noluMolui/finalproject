@@ -17,7 +17,6 @@ function displayTemperature(response) {
 }
 
 function search(event) {
-  event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
   let city = searchInputElement.value;
 
@@ -28,7 +27,6 @@ function search(event) {
 }
 
 function formatDate(date) {
-event.preventDefault();
   let minutes = date.getMinutes();
   let hours = date.getHours();
   let day = date.getDay();
@@ -64,7 +62,6 @@ let currentDate = new Date();
 currentDateELement.innerHTML = formatDate(currentDate);
 
 function getforecast(city){
-event.preventDefault();
  let apiKey = "b2a5adcct04b33178913oc335f405433";
  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
  
