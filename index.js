@@ -1,5 +1,4 @@
 function displayTemperature(response) {
-  event.preventDefault();
   let temperatureElement = document.querySelector("#current-temperature");
   let temperature = Math.round(response.data.temperature.current);
   let cityElement = document.querySelector("#current-city");
@@ -17,6 +16,7 @@ function displayTemperature(response) {
 }
 
 function search(event) {
+  event.preventDefault()
   let searchInputElement = document.querySelector("#search-input");
   let city = searchInputElement.value;
 
